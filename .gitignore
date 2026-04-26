@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-tsc/
+**/*.log
+maimai_py/
+test*.cjs
+test.js
+test*.mjs
+.env
+.npmrc
