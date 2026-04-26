@@ -1,6 +1,6 @@
 {
   "name": "maimai.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "maimai DX async API client ported from maimai.py",
   "type": "module",
   "main": "dist/index.cjs",
