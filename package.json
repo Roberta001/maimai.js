@@ -1,8 +1,12 @@
 {
   "name": "maimai.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "maimai DX async API client ported from maimai.py",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roberta001/maimai.js.git"
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
