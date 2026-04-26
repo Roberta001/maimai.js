@@ -20,6 +20,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18.x'
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Install Dependencies
         run: npm ci
@@ -29,3 +30,5 @@ jobs:
 
       - name: Publish to NPM with Provenance
         run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ''
